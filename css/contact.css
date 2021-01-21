@@ -1,0 +1,73 @@
+/* 폰트
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+/*contact*/
+#contact{width: 1200px; margin: 0 auto; margin-top: 100px;}
+#contact>h1{font-family: 'Noto Sans KR', sans-serif; font-size: 28px; font-weight: 400; padding-left: 6px; padding-top: 55px; padding-bottom: 21px;}
+.banner{width: 100%; height: 380px; background: url(../img/contact_banner.png) no-repeat top center; position: relative;}
+.txt>h1{font-family: 'Noto Sans KR', sans-serif; font-weight: 700; font-size: 19px; text-align: center;}
+.txt>p{font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15px; text-align: center; margin-top: 16px;}
+
+.txt1{position: absolute; top: 244px; left: 168px;}
+.txt2{position: absolute; top: 244px; left: 495px;}
+.txt3{position: absolute; top: 244px; left: 840px;}
+
+/*form*/
+.form{width: 1200px; margin: 0 auto; margin-top: 144px;}
+.form h1{font-family: 'Noto Sans KR', sans-serif; font-weight: 700; font-size: 21px; padding-left: 6px; padding-bottom: 24px;}
+
+.form_box{width: 800px; margin: 0 auto;}
+.fnb{width: 100%; height: 82px; margin-bottom: 28px; border: 1px solid #959595;}
+.fnb li{
+    float: left; width: 14.28571428%; height: 80px; text-align: center; line-height: 80px; border-right: 1px solid #959595;
+    font-family: 'Noto Sans KR', sans-serif; font-size: 13px; font-weight: 400; transition: 0.3s;
+}
+.fnb li:last-child{border-right: none;}
+.fnb li:hover{cursor: pointer; background-color: #feb217;}
+.fnb li.click{background-color: #feb217;}
+
+.address h4{font-family: 'Noto Sans KR', sans-serif; font-size: 15px; font-weight: 700; padding-bottom: 18px;}
+.address input[type="text"]{width: 200px; height: 34px; border: 1px solid #d7d7d7; outline: 0; float: left;}
+.address input[type="text"]:nth-child(4){margin-left: 15px; width: 530px;}
+.address input::placeholder{font-family: 'Noto Sans KR', sans-serif; font-size: 13px; font-weight: 400; color: #ababab; padding-left: 13px;}
+.address span{
+    display: inline-block; float: left; width: 55px; height: 34px; border: 1px solid #d7d7d7; text-align: center; line-height: 34px;
+    outline: 0; font-family: 'Noto Sans KR', sans-serif; font-size: 13px; font-weight: 400; color: #7d7d7d; border-left: 0; background-color: #f8f8f8;
+}
+.address span:hover{cursor: pointer;}
+
+.name{float: left; margin-top: 25px;}
+.name h4{font-family: 'Noto Sans KR', sans-serif; font-size: 15px; font-weight: 700; padding-bottom: 18px;}
+.name input[type="text"]{width: 370px; height: 34px; border: 1px solid #d7d7d7; outline: 0; float: left;}
+.name input::placeholder{font-family: 'Noto Sans KR', sans-serif; font-size: 13px; font-weight: 400; color: #ababab; padding-left: 13px;}
+
+.tel{float: left; margin-top: 25px; margin-left: 36px;}
+.tel h4{font-family: 'Noto Sans KR', sans-serif; font-size: 15px; font-weight: 700; padding-bottom: 18px;}
+.tel select{
+    border: 1px solid #d7d7d7; outline: 0; width: 128px; height: 34px; padding-left: 13px; float: left;
+    font-family: 'Noto Sans KR', sans-serif; font-size: 13px; font-weight: 400; color: #ababab;
+}
+.tel input[type="text"]{width: 120px; height: 34px; border: 1px solid #d7d7d7; outline: 0; float: left; margin-left: 10px;}
+
+.agree{padding-top: 25px; width: 100%; clear: both;}
+.ag_title{width: 100%; height: 54px; border: 1px solid #d7d7d7; border-radius: 10px; line-height: 50px; position: relative; margin-bottom: 23px;}
+.ag_title:hover{cursor: pointer;}
+.ag_title h4{font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 16px; margin-left: 15px;}
+.ag_title img{position: absolute; right: 15px; top: 22px;}
+.ag_title.click{background-color: #d7d7d7;}
+.ag_title.click img{transform: rotate(180deg);}
+
+.ag_box{width: 100%; margin-top: 18px; padding: 0 15px; display: none;}
+.ag_box h4{font-family: 'Noto Sans KR', sans-serif; font-weight: bold; font-size: 15px; margin-bottom: 30px;}
+.ag_box p{font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 13px; color: #666; margin-bottom: 23px;}
+.ag_box table{width: 100%; border-top: 1px solid #070707; margin-bottom: 25px;}
+.ag_box table th{background-color: #f4f4f4; font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 14px; color: #333; height: 38px;}
+.ag_box table td{font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 13px; color: #333; padding: 0 10px; border-top: 1px solid #e1e4e8;}
+.agree .checkbox{float: right;}
+.agree input[type="checkbox"]+label{
+    font-family: 'Noto Sans KR', sans-serif; font-size: 400; font-size: 12px; margin-left: 6px; color: #c5c5c5;
+}
+.btn{width: 284px; height: 50px; margin: 0 auto; background-color: #104a68; text-align: center; line-height: 50px; margin-top: 100px; margin-bottom: 144px;}
+.btn a{color: white; font-size: 15px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400;}

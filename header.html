@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>header</title>
+    
+<!--    js-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    
+<!--    css-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    
+<!--    font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--header-->
+<header>
+    <img src="img/logo.png" alt="" class="logo" onclick="location.href='index.html'">
+    <ul class="menu">
+        <li><a href="index.html">HOME</a></li>
+        <li>
+            <a href="single_main.html">INTERIOR SAMPLE</a>
+            <ul class="menu_sub">
+                <li><a href="single_main.html">Single Life</a></li>
+                <li><a href="couple_main.html">Couple Life</a></li>
+                <li><a href="family_main.html">Family Life</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="company.html">ABOUT US</a>
+            <ul class="menu_sub">
+                <li><a href="company.html">Company</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="contact.html">CONTACT</a>
+            <ul class="menu_sub">
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </li>
+    </ul>
+    <img src="img/menu.png" alt="" class="btn_menu">
+</header>
+
+<script>
+//    header menu
+    $(".btn_menu").click(function(){
+        $(this).toggleClass("active");
+        $("header").toggleClass("active");
+        $(".menu_sub").toggleClass("active");
+    });
+</script>  
+</body>
+</html>

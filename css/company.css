@@ -1,0 +1,36 @@
+/* 폰트
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+/*banner*/
+#banner{margin-top: 100px; background: url(../img/company/company_banner.png) no-repeat top center; width: 100%; min-width: 960px; height: 480px; background-size: cover; position: relative;}
+#banner p{
+    font-family: 'Noto Sans KR', sans-serif; font-weight: 300; font-size: 26px; line-height: 40px;
+    position: absolute; left: 65%; top: 162px;
+}
+
+/*company*/
+#company{width: 960px; margin: 0 auto; margin-top: 94px; overflow: hidden;}
+.cnb{width: 100%; margin: 0 auto; padding-bottom: 82px;}
+.cnb li{float: left; width: 470px; padding-bottom: 15px; border-bottom: 1px solid #a6a6a6; text-align: center;}
+.cnb li:last-child{margin-left: 20px;}
+.cnb li a{font-family: 'Noto Sans KR', sans-serif; color: #a6a6a6; font-size: 15px; font-weight: 700; transition: 0.5s;}
+.cnb li.on{border-bottom: 2px solid #000;}
+.cnb li.on a{color: #000;}
+
+.company1{width: 100%; margin: 0 auto; overflow: hidden; _display: none;}
+.company1>h1{font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 28px; margin-bottom: 35px;}
+.company1>p{font-family: 'Noto Sans KR', sans-serif; font-weight: 300; font-size: 15px; margin-bottom: 30px; width: 45%; line-height: 24px;}
+.company1_1{float: left; margin-top: 44px; width: 50%; overflow: hidden;}
+.company1_1 h3{font-family: 'Noto Sans KR', sans-serif; font-weight: 700; font-size: 17px; margin-bottom: 28px;}
+.company1_1 p{font-family: 'Noto Sans KR', sans-serif; font-weight: 300; font-size: 15px; width: 100%; margin-right: 46px; margin-bottom: 40px; padding-right: 40px; text-align: justify; line-height: 24px;}
+
+.company2{display: none;}
+.company2_1{overflow: hidden;}
+.company2_1 img{float: right; margin-bottom: 70px;}
+.company2_text{float: left; width: 50%;}
+.company2_text h5{font-family: 'Noto Sans KR', sans-serif; font-weight: bold; font-size: 14px; margin-bottom: 20px;}
+.company2_text h2{font-family: 'Noto Sans KR', sans-serif; font-weight: 300; font-size: 30px; line-height: 40px; margin-bottom: 30px;}
+.company2_text p{font-family: 'Noto Sans KR', sans-serif; font-weight: 300; font-size: 14px; line-height: 24px; width: 100%; padding-right: 30px; text-align: justify;}
+.company2_1:nth-child(3){margin-bottom: 152px;}
